@@ -6,6 +6,8 @@ cmake version:3.13.4
 
 qtcreator 4.8.2验证ok
 
+cli侧的　--version暂时没有使用
+
 # 使用方式
 
 mkdir build
@@ -38,6 +40,7 @@ make clean
 # 参考文档
 
 QDbus 数据类型
+
 [https://blog.csdn.net/weixin_33909059/article/details/89630036]()
 
 QDbus 传递复杂数据类型
