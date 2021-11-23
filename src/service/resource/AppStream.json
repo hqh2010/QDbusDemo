@@ -1,0 +1,626 @@
+{
+    "com.ugetdm.uget_2.2.1": {
+        "appid": "com.ugetdm.uget",
+        "name": "uget",
+        "version": "2.2.1",
+        "summary": "Uget是一个下载管理器，它支持断点续传、监视剪贴板、Firefox插件、分类/批量下载，还支持从HTML中导入下载地址、命令行下载等功能。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "deepin.Runtime.Sdk_23": {
+        "appid": "deepin.Runtime.Sdk",
+        "name": "runtime",
+        "version": "23",
+        "summary": "runtime sdk for linglong app",
+        "runtime": "deepin.Runtime.Sdk/23/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "org.telegram-desktop_1.5.11-3": {
+        "appid": "org.telegram-desktop",
+        "name": "telegram-desktop",
+        "version": "1.5.11-3",
+        "summary": "Telegram是一个聊天应用软件，专注于速度与安全的消息传递。Telegram可以让你创建多达200人的群聊空间，另外，你可以分享高达1GB的视频。通过Telegram，您能够以安全的方式，与您的朋友进行信息交流和文件交换，以保证个人隐私不被泄露。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "io.typora_0.11.13": {
+        "appid": "io.typora",
+        "name": "typora",
+        "version": "0.11.13",
+        "summary": "Typora是一款markdown编辑器，它将写作界面和预览界面二合为一，插入表格像在word中一样简单，支持直接拖拽插入图片，支持代码和数学公式输入，可以显示和隐藏大纲，自定义主题。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "org.gnome.sudoku_3.30.0": {
+        "appid": "org.gnome.sudoku",
+        "name": "gnome-sudoku",
+        "version": "3.30.0",
+        "summary": "数独是一款逻辑性强的数字填充游戏，玩家必须以数字填进每一格。数独虽然规则简单，但数字排列方式却千变万化，非常考验玩家的智商。游戏从易到难按等级设置，大大提高了游戏的趣味性和挑战性。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.xunlei.download_1.0.0.2": {
+        "appid": "com.xunlei.download",
+        "name": "迅雷",
+        "version": "1.0.0.2",
+        "summary": "十八年技术沉淀，专注下载传输，成就用户信赖的必备工具”，迅雷团队首次推出 linux 界面版本，为国产芯片和国产操作系统助力，为用户提供极速，流畅，便捷的下载服务。\n\n【支持国芯、支持国产操作系统】\n\n       支持多种芯片，适配龙芯，适配国产操作系统。\n\n【一样下载体验】\n\n       一样强大而稳定的下载内核，简洁的操作界面，一样的下载速度，一样的下载信息呈现。\n\n【简约的界面交互】 　　\n\n       简约设计，精致的简约体验；linux 迅雷界面尺寸更加小巧，小屏幕也能适应。　\n\n【强大的软件框架】\n\n       linux 迅雷使用基于 “Electron” 的软件框架，使界面响应将更加流畅，文字显示效果更加清晰细腻。\n\n",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.deepin.Runtime_20": {
+        "appid": "com.deepin.Runtime",
+        "name": "runtime",
+        "version": "20",
+        "summary": "runtime for deepin.",
+        "runtime": "aaa2668a-f67e-11eb-913a-23d17b06112b",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.deepin.eatfish_1.2": {
+        "appid": "com.deepin.eatfish",
+        "name": "eatfish",
+        "version": "1.2",
+        "summary": "eatfish是一个windows 平台游戏。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.qihoo.360zip_1.0.0.1012": {
+        "appid": "com.qihoo.360zip",
+        "name": "360zip",
+        "version": "1.0.0.1012",
+        "summary": "国产系统适配专版360压缩是一款旨在服务各国产Linux操作系统的专业压缩软件，包含强力压缩、分卷、加密和自解压等模块，简单易用；基本可以满足所有的压缩和解压缩需求，支持的格式多达42种，如主流的rar、zip、7z、iso等压缩文件。解压缩速度快，支持多核高速压缩，支持多核并行压缩，压缩速度可提升至6倍，相比传统Linux压缩软件更快更轻巧，而且大幅简化了传统Linux系统下通过命令行解/压缩得繁琐操作。软件快速轻巧、兼容性好、更安全，界面简洁友好，使用方便。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "app.web.whatsapp_1.0": {
+        "appid": "app.web.whatsapp",
+        "name": "apps.com.whatsapp",
+        "version": "1.0",
+        "summary": "WhatsApp是一款社交通讯工具，可以即刻接收亲友和同事发送的信息。WhatsApp的功能和界面都与微信极其相似，支持分享视频、图片和链接，还具有直接关联通讯录、接收离线信息等功能。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "cn.google.chrome_95.0.4638.54": {
+        "appid": "cn.google.chrome",
+        "name": "google-chrome",
+        "version": "95.0.4638.54",
+        "summary": "Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "cn.linuxgame.cstrike_1.6": {
+        "appid": "cn.linuxgame.cstrike",
+        "name": "cstrike",
+        "version": "1.6",
+        "summary": "反恐精英(英文：Counter-Strike;简称CS)是一种以团队合作为主的第一人称射击游戏，它是由著名游戏《半条命》(Half-Life)的其中一个游戏模组(MOD)衍生而成的游戏。虽然只是简单的一个MOD，但是它却在全世界风靡起来，WCG、CPL、ESWC等世界顶级电子竞技大赛都以CS1.6作为比赛项目。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "cn.wps.wps-office_11.1.0.10161": {
+        "appid": "cn.wps.wps-office",
+        "name": "wps-office",
+        "version": "11.1.0.10161",
+        "summary": "WPS Office 2019 for Linux 办公软件，是一款兼容、开放、高效、安全并极具中文本土化优势的办公软件。支持国内外主流软硬件系统，其专业的图文混排功能、强有力的计算引擎和强大的数据处理功能、丰富的动画效果设置、公文处理等，可以充分满足国内外用户在Linux体系下高效办公的要求。\nWPS Office 2019 for Linux在文字排版、表格计算、演示动画三大核心功能上做到底层兼容，可以直接创建、读取、编辑、保存如doc、xls、ppt、pps等格式的文档、国际标准OOXML文档（如docx、xlsx、pptx、ppsx等格式的文档）。\n客服热线：400-822-9012\nQQ群：858835097\n微信客服：搜索 \"WPS客户服务\"",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.163.music_1.2.1.1": {
+        "appid": "com.163.music",
+        "name": "netease-cloud-music",
+        "version": "1.2.1.1",
+        "summary": "网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，在线音乐服务主打歌单、社交、大牌推荐和音乐指纹，以歌单、DJ节目、社交、地理位置为核心要素，主打发现和分享。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.360.browser-stable_10.4.1016.30": {
+        "appid": "com.360.browser-stable",
+        "name": "360安全浏览器",
+        "version": "10.4.1016.30",
+        "summary": "360安全浏览器具有内核安全可控、启动速度快、网页渲染能力佳等特点，领先的国密套件支持，完整的信创迁移方案，为政企客户提供最极速、最安全、最易用的浏览器。全面支持信创主流CPU、操作系统、流版签办公插件、正版Flash插件、1080p及4K高清视频流畅播放、国密单双向通信加密、国密根证书管理、USBKEY驱动管理、显卡硬件加速（AMD系列）、用户隐私数据保护等，高效满足信创平台办公需求，打造信创平台Web应用统一支撑平台，建立基于浏览器的Web生态标准体系。\n360安全浏览器在国产计算平台上与电子公文、电子签章、电子文档、流版式办公软件（WPS、数科、书生、福昕、永中、金格、金蝶）、搜狗输入法、中间件、安全软件、打印机、OA（致远、泛微、万户等）、UKEY（龙脉、海泰）国密网关（格尔、三未信安、信安世纪、吉大正元）等近百款国产软件全面实现兼容性适配。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.baidu.baidunetdisk_3.0.6": {
+        "appid": "com.baidu.baidunetdisk",
+        "name": "baidunetdisk",
+        "version": "3.0.6",
+        "summary": "百度网盘为百度旗下的一款云存储产品，用户可以轻松将自己的文件上传到网盘上，并可跨终端随时随地查看和分享。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.brave.brave-browser_1.28.106": {
+        "appid": "com.brave.brave-browser",
+        "name": "brave-browser",
+        "version": "1.28.106",
+        "summary": "Brave是一款拦截广告的浏览器，最大的特点是速度快，可以阻止所有第三方追踪的cookies、所有的指纹识别技术、以及所有试图注入广告的脚本”。在使用Brave时你可以选择付费资助网站或者加载匿名用户广告来支持网站。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.calibre-ebook.calibre_5.31.0": {
+        "appid": "com.calibre-ebook.calibre",
+        "name": "calibre",
+        "version": "5.31.0",
+        "summary": "Calibre是一个“一站式”的电子书管理软件，支持EPUB、MOBI、PDF等大多数格式的电子书。您可以把Calibre当做电子书图书馆来进行图书管理，也可以使用它来进行电子书的格式转换、阅读等。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.jetbrains.intellij-idea-community_2020.2.3": {
+        "appid": "com.jetbrains.intellij-idea-community",
+        "name": "intellij-idea-community",
+        "version": "2020.2.3",
+        "summary": "IntelliJ IDEA Community是一个Java语言集成开发环境，它具有智能编辑、代码自动分析、重构、支持J2EE、Ant、JUnit、丰富的导航模式、扩展代码检查、查询历史记录等功能。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.jetbrains.pycharm_2021.2.3": {
+        "appid": "com.jetbrains.pycharm",
+        "name": "PyCharm-Professional",
+        "version": "2021.2.3",
+        "summary": "PyCharm Professional是一个Python集成开发环境，它具有代码调试、语法高亮、Project管理、代码跳转、智能提示、自动完成、单元测试、版本控制等功能，同时支持Google App Engine和IronPython。\n该版本需要您自行购买长期使用授权。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.microsoft.skype_3.0.16-1": {
+        "appid": "com.microsoft.skype",
+        "name": "Skype",
+        "version": "3.0.16-1",
+        "summary": "Skype是一款即时通讯软件，具备视频聊天、多人语音会议、传送文件、文字聊天等功能。它允许用户进行跨平台的视频呼叫，可与使用电脑、手机、电视、PSV等多种终端的Skype用户进行视频通话。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.mozilla.firefox-zh_93.0.2": {
+        "appid": "com.mozilla.firefox-zh",
+        "name": "firefox-nal",
+        "version": "93.0.2",
+        "summary": "火狐浏览器是一个安全高效的浏览器，它具有速度快、隐私保护、丰富的插件资源、不同设备之间同步数据、分页浏览、个性化定制等特性。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.opera.browser_76.0.4017.154": {
+        "appid": "com.opera.browser",
+        "name": "opera-stable",
+        "version": "76.0.4017.154",
+        "summary": "Opera是一款网络浏览器，它具有网络同步，密码管理、会话管理、鼠标手势、键盘快捷键、内置搜索引擎、智能弹出式广告拦截、网址的过滤和主题皮肤、插件扩展等功能。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.postman.postman_8.12.1": {
+        "appid": "com.postman.postman",
+        "name": "postman",
+        "version": "8.12.1",
+        "summary": "Postman是一款强大的网页调试工具，提供功能强大的 Web API & HTTP 请求调试。我们可以用来很方便的模拟get或者post或者其他方式的请求来调试接口。能够发送任何类型的HTTP 请求 (GET, HEAD, POST, PUT..)，附带任何数量的参数+ headers。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.qianxin.browser-stable_1.0.40051.3": {
+        "appid": "com.qianxin.browser-stable",
+        "name": "奇安信可信浏览器",
+        "version": "1.0.40051.3",
+        "summary": "奇安信可信浏览器是以W3C标准为基础的、专为政企打造的安全浏览器产品。它支持WebGL、GPU加速、WebAssembly等国际先进技术，支持流畅的大屏动态数据展示、播放1080P在线视频等复杂场景。同时兼容NPAPI插件技术，全面支持Flash、电子公文、流版签章应用。奇安信可信浏览器还支持国密通信，统一管控、日志审计、内网应用文件杀毒等政企常见安全上网、管控需求。适配的产品包括：WPS、永中、数科、书生、福昕、汉邦、格尔、中孚、万里红、时代亿信、卫士通等上百款应用、系统、中间件及国产打印机等硬件产品。兼容vue、react、angular、echarts、bootstrap等常用框架，跨平台体验一致、内核一致，显著降低应用系统适配、部署成本。\n奇安信可信浏览器满足政府单位、企业互联网安全、稳定、快捷的接入需求，是政企上网首选解决方案。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.qq.tenvideo_1.0.10": {
+        "appid": "com.qq.tenvideo",
+        "name": "tenvideo-universal",
+        "version": "1.0.10",
+        "summary": "腾讯视频，是定位于中国最大在线视频媒体平台，同时也是一款视频播放器。其以丰富的内容、极致的观看体验、便捷的登录方式、24小时多平台无缝应用体验以及快捷分享的产品特性，满足用户在线观看视频的需求。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.steampowered.steam-launcher_1.0.0.70": {
+        "appid": "com.steampowered.steam-launcher",
+        "name": "com.steampowered.steam-launcher",
+        "version": "1.0.0.70",
+        "summary": "Steam是一款方便迅速的综合性游戏平台，从动作游戏到独立游戏，各式各样，应有尽有。玩家可以在该平台上购买游戏、讨论和分享，也可以与您的好友一起进行跨平台的联机游戏。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.sublimetext.2_2.0.2": {
+        "appid": "com.sublimetext.2",
+        "name": "sublimetext2",
+        "version": "2.0.2",
+        "summary": "Sublime Text是一个代码编辑器，它具有漂亮的用户界面和强大的功能，例如代码缩略图，Python的插件，代码段、语法高亮等。还可自定义快捷键绑定，菜单和工具栏等。\n该版本需要您自行购买长期使用授权。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.taobao.wangwang.deepin_9.12.10Cdeepin6": {
+        "appid": "com.taobao.wangwang.deepin",
+        "name": "WangWang",
+        "version": "9.12.10Cdeepin6",
+        "summary": "阿里旺旺是一款专为淘宝会员量身定做的个人交易沟通软件，它能方便进行买家和卖家的实时沟通，提供文字聊天、语音聊天、视频聊天、文件传输、发送离线文件等功能。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.visualstudio.code_1.61.2.1634656828": {
+        "appid": "com.visualstudio.code",
+        "name": "Visual Studio Code",
+        "version": "1.61.2.1634656828",
+        "summary": "Visual Studio Code是一款轻量级代码编辑器，它具有语法高亮、可定制的热键绑定、括号匹配、代码片段收集、代码调试、自定义语言和主题、支持扩展/插件等功能。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.zwsoft.zwcad_7.0.2987.1": {
+        "appid": "com.zwsoft.zwcad",
+        "name": "ZWCAD-LinuxPreInst",
+        "version": "7.0.2987.1",
+        "summary": "中望CAD Linux预装版是ZWSOFT研发的二维CAD软件，提供强大的看图和批注功能，以及简单的绘图和打印功能，具体包括：\n1）兼容R12、R14、2000、2004、2007、2013和2018版本的DWG/DXF文件；\n2）支持三维动态观察；\n3）支持模型和布局切换；\n4）可创建转角标注、对齐标注、角度标注、直径标注、半径标注、弧长标注、引线标注等标注对象；\n5）支持对象捕捉、栅格捕捉、正交锁定、极轴追踪等辅助绘图功能；\n6）支持点坐标查询、直线长度统计、面积统计等统计查询功能；\n7）支持实体通用编辑操作；\n8）支持文字编辑操作；\n9）支持PDF打印。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "github.patrikx3.onenote_2020.10.189": {
+        "appid": "github.patrikx3.onenote",
+        "name": "onenote",
+        "version": "2020.10.189",
+        "summary": "OneNote是一套用于自由形式的信息获取以及多用户协作工具。可用于直接记录笔记，但也可用于收集打印的“页面”，或由其他应用程序发送过来的页面。页面可以在活页夹内部移动，同时可通过电子墨水技术添加注释，处理文字，或绘图，并且其中还可内嵌多媒体影音或Web链接。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "info.smplayer.smplayer_20.4.2": {
+        "appid": "info.smplayer.smplayer",
+        "name": "smplayer",
+        "version": "20.4.2",
+        "summary": "SMplayer是一款跨平台的视频播放工具，可以支持大部分的视频和音频文件。它支持音频轨道切换、允许调节亮度、对比度、色调、饱和度、伽玛值，按照倍速、4倍速等多种速度回放、还可以进行音频和字幕延迟调整以同步音频和字幕。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "net.huangyuhui.hmcl_3.3.188+dstore.1": {
+        "appid": "net.huangyuhui.hmcl",
+        "name": "hmcl",
+        "version": "3.3.188+dstore.1",
+        "summary": "HMCL 是一个免费、开源的 Minecraft 启动器，允许玩家方便快捷地安装、管理、运行游戏，支持安装第三方插件如Forge,Optifine等。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "net.winegame.client_0.5.7.0": {
+        "appid": "net.winegame.client",
+        "name": "Wine游戏助手",
+        "version": "0.5.7.0",
+        "summary": "Wine游戏助手是 Linux 上的开源游戏平台， 是开源项目 Lutris 的中国定制版。 通过Wine游戏助手，你可以在 Linux 系统中 一键安装你熟悉的 Windows 游戏，快速下载、即刻畅玩， 免去配置 Wine、DXVK，调设置、不兼容等烦恼。 与开源项目 Lutris 相比，我们拥有中国境内的服务器，组件下载速度更快， 并且游戏列表里也有更多中国常见的游戏。 Wine游戏助手支持各大游戏平台，包括但不限于Steam、暴雪战网、 Origin（橘子）、UPlay（育碧）、Epic等， 其中很多游戏都可以在 Linux 上正常运行。 就算你的游戏不在我们的一键安装列表中也没关系。 只要跟着教程一步一步操作，你就可以自行下载游戏（exe）进行安装， 也许它就能在你的 Linux 系统中正常运行。 祝您游戏愉快！ \n\n备注：刚安装不会显示任何游戏，请点击右侧边栏的“安装游戏”进入网站查看游戏列表，或者点击顶部的搜索按钮，输入游戏名称并点击“在WineGame.net上搜索”。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "net.xmind.www_10.3.1.202101132117": {
+        "appid": "net.xmind.www",
+        "name": "XMind",
+        "version": "10.3.1.202101132117",
+        "summary": "XMind: ZEN是一款全新的思维导图软件。操作界面简洁，稳定性高，功能强大；对所有主题进行了重新设计，支持Markdown，让你肆意头脑风暴，快速创建内容丰富的思维导图。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "org.gnome.gnome-mines_3.30.1.1": {
+        "appid": "org.gnome.gnome-mines",
+        "name": "gnome-mines",
+        "version": "3.30.1.1",
+        "summary": "扫雷是一款扫雷游戏，在游戏中玩家需要打开屏幕内的小方格，查看和分析方格下的数字（表示周边范围内的地雷数量），然后判断和猜测藏有地雷的方格位置，并给所有这些方格做出标记。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "org.gnome.gnome-weather_3.26.0": {
+        "appid": "org.gnome.gnome-weather",
+        "name": "gnome-weather",
+        "version": "3.26.0",
+        "summary": "天气是一个天气预报应用程序，通过自动定位显示单个或多个地点的当前天气状况，预测未来三天，每小时的天气预报，以及白天和黑夜的预测为一周的每一天，同时还可以切换地理位置、温度等功能。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "org.inkscape.inkscape_1.1": {
+        "appid": "org.inkscape.inkscape",
+        "name": "inkscape",
+        "version": "1.1",
+        "summary": "VLC是一款自由、开源的跨平台多媒体播放器及框架，它支持大多数的音频与视频解码器及文件格式，还可以播放大多数多媒体文件，以及DVD、音频CD、VCD及各类流媒体协议。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "org.mamedev.mamedev_0.224": {
+        "appid": "org.mamedev.mamedev",
+        "name": "mamedev",
+        "version": "0.224",
+        "summary": "MAME是一个模拟器，也是国内玩家最熟悉和最常使用的街机模拟器之一。MAME的游戏列表里有近3万个游戏，可以运行的游戏有数千个。很多70后、80后曾迷恋的街机游戏，都可以在电脑上用MAME来运行。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "org.mozilla.firefox-nal_93.0": {
+        "appid": "org.mozilla.firefox-nal",
+        "name": "firefox-nal",
+        "version": "93.0",
+        "summary": "火狐浏览器是一个安全高效的浏览器，它具有速度快、隐私保护、丰富的插件资源、不同设备之间同步数据、分页浏览、个性化定制等特性。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "org.multimc.multimc_1.3": {
+        "appid": "org.multimc.multimc",
+        "name": "multimc",
+        "version": "1.3",
+        "summary": "Minecraft是一款自由度很高的沙盒游戏，整个游戏没有剧情，每一个玩家在三维空间中透过像乐高一样的积木来组合与拼凑，自由地创造和破坏不同种类的方块。在这款游戏里，不仅可以单人娱乐，还可以多人联机一起娱乐。\n该版本需要您自行购买长期使用授权。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "org.qbittorrent.qbittorrent_4.1.5": {
+        "appid": "org.qbittorrent.qbittorrent",
+        "name": "qbittorrent",
+        "version": "4.1.5",
+        "summary": "qBittorrent是一个轻量级BitTorrent客户端，它支持文件上传/下载、支持DHT网络、数据交换、文件选择性下载、预览媒体文件、支持Unicode、支持代理连接、远程控制等功能。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "org.telegram-desktop_1.5.11.3": {
+        "appid": "org.telegram-desktop",
+        "name": "telegram-desktop",
+        "version": "1.5.11.3",
+        "summary": "Telegram是一个聊天应用软件，专注于速度与安全的消息传递。Telegram可以让你创建多达200人的群聊空间，另外，你可以分享高达1GB的视频。通过Telegram，您能够以安全的方式，与您的朋友进行信息交流和文件交换，以保证个人隐私不被泄露。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "org.videolan.vlc_3.0.16.1": {
+        "appid": "org.videolan.vlc",
+        "name": "vlc",
+        "version": "3.0.16.1",
+        "summary": "VLC是一款自由、开源的跨平台多媒体播放器及框架，它支持大多数的音频与视频解码器及文件格式，还可以播放大多数多媒体文件，以及DVD、音频CD、VCD及各类流媒体协议。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "tv.kodi.kodi_17.6+dfsg1": {
+        "appid": "tv.kodi.kodi",
+        "name": "kodi",
+        "version": "17.6+dfsg1",
+        "summary": "Kodi是一个跨平台媒体中心软件，它能够播放几乎所有流行的音频和视频格式，还可以用于播放网络媒体，支持各种网络媒体协议等。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.deepin.Wine_20": {
+        "appid": "com.deepin.Wine",
+        "name": "wine",
+        "version": "20",
+        "summary": "deepin wine plugin.",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "org.deepin.demo_1.2.1": {
+        "appid": "org.deepin.demo",
+        "name": "deepin-demo",
+        "version": "1.2.1",
+        "summary": "deepin demo.",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "org.deepin.calculator_5.7.11": {
+        "appid": "org.deepin.calculator",
+        "name": "calculator",
+        "version": "5.7.11",
+        "summary": "calculator, for deepin.",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "org.deepin.calculator_5.5.23": {
+        "appid": "org.deepin.calculator",
+        "name": "calculator",
+        "version": "5.5.23",
+        "summary": "calculator, for deepin.",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.qq.weixin.deepin_3.2.1.154": {
+        "appid": "com.qq.weixin.deepin",
+        "name": "WeChat",
+        "version": "3.2.1.154",
+        "summary": "微信一款跨平台的通讯工具，支持单人、多人参与，通过手机网络发送语音、图片、表情和文字。",
+        "runtime": "com.deepin.Wine/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    },
+    "com.mozilla.firefox-zh_94.0": {
+        "appid": "com.mozilla.firefox-zh",
+        "name": "firefox-nal",
+        "version": "94.0",
+        "summary": "火狐浏览器是一个安全高效的浏览器。",
+        "runtime": "com.deepin.Runtime/20/x86_64",
+        "appUrl": "https://repo.linglong.space/ouap/",
+        "reponame": "repo",
+        "arch": [
+            "x86_64"
+        ]
+    }
+}

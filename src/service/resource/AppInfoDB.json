@@ -1,0 +1,40 @@
+{
+    "pkgs": {
+        "com.deepin.Runtime": {
+            "arch": "x86_64",
+            "name": "runtime",
+            "reponame": "repo",
+            "runtime": "aaa2668a-f67e-11eb-913a-23d17b06112b",
+            "summary": "runtime for deepin.",
+            "users": [
+                "ut_huqinghong"
+            ]
+        },
+        "org.deepin.calculator": {
+            "arch": "x86_64",
+            "name": "calculator",
+            "reponame": "repo",
+            "runtime": "com.deepin.Runtime/20/x86_64",
+            "summary": "calculator, for deepin.",
+            "users": [
+                "ut_huqinghong"
+            ]
+        }
+    },
+    "users": {
+        "ut_huqinghong": {
+            "com.deepin.Runtime": {
+                "ref": "app:com.deepin.Runtime",
+                "version": [
+                    "20"
+                ]
+            },
+            "org.deepin.calculator": {
+                "ref": "app:org.deepin.calculator",
+                "version": [
+                    "5.5.23"
+                ]
+            }
+        }
+    }
+}
