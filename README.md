@@ -54,3 +54,5 @@ QDbus 传递复杂数据类型
 [https://www.cnblogs.com/chendeqiang/p/12861670.html](https://www.cnblogs.com/chendeqiang/p/12861670.html)
 
 https://www.cnblogs.com/coderfenghc/archive/2012/10/20/2712806.html
+
+https://github.com/RealWuJing
