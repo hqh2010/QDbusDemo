@@ -1,13 +1,13 @@
-#include <QDBusArgument>
 #include <QDBusContext>
-#include <QList>
 #include <QObject>
 #include <QScopedPointer>
 
 #include "utils/RegisterDbusType.h"
 
-// include "AppManagerPrivate.h"
+#include "AppMeta/AppInfo.h"
+
 class AppManagerPrivate;
+
 class AppManager : public QObject
     , protected QDBusContext
 {

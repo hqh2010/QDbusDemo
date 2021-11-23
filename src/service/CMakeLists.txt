@@ -12,6 +12,7 @@ set(SERVICE_SOURCES
         main.cpp
         resource/resource.qrc
         impl/AppManager.cpp
+        impl/AppManagerPrivate.cpp
         ${MODULE_INCLUDE}
         )
 
