@@ -30,7 +30,10 @@ make -j16
 
 cli query com.xunlei.download --version=1.2.3
 
+运行结果如下：
+
 id                      name            version         arch        description
+
 com.xunlei.download     迅雷          1.0.0.2         x86_64      十八年技术沉淀，专注下载传输，成就用户信赖的必备工具”，迅雷团队首次推出 linux 界面版本，为国...
 
 # 清理
