@@ -18,6 +18,8 @@
 
 int main(int argc, char **argv)
 {
+    // 打开日志的时间戳文件行开关
+    qSetMessagePattern("%{time yyyy-MM-dd hh:mm:ss.zzz} [%{type}] [File:%{file} Line:%{line} Function:%{function}] %{message}");
     qInfo() << "qdbus service start";
     QCoreApplication app(argc, argv);
     QCoreApplication::setOrganizationName("QTDbusDemo");
