@@ -12,14 +12,69 @@
 #include <QDBusConnection>
 #include <QDebug>
 #include <QDBusError>
+#include <QFile>
+#include <QFileInfo>
+#include <QMutex>
+#include <QDateTime>
 
 #include "utils/RegisterDbusType.h"
 #include "appmanageradaptor.h"
 
+bool dirExists(const QString &path)
+{
+    QFileInfo fs(path);
+    return fs.exists() && fs.isDir() ? true : false;
+}
+
+void outputMessage(QtMsgType type, const QMessageLogContext &context, const QString &msg)
+{
+    static QMutex mutex;
+    mutex.lock();
+    QString text;
+    switch (type) {
+    case QtDebugMsg:
+        text = QString("[Debug]");
+        break;
+    case QtInfoMsg:
+        text = QString("[Info]");
+        break;
+    case QtWarningMsg:
+        text = QString("[Warning]");
+        break;
+    case QtCriticalMsg:
+        text = QString("[Critical]");
+        break;
+    case QtFatalMsg:
+        text = QString("[Fatal]");
+    }
+
+    QString context_info =
+        QString("[File:%1 Line:%2 Func:%3]").arg(QString(context.file)).arg(context.line).arg(context.function);
+
+    QString current_date_time = QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss.zzz");
+
+    QString current_date = QString("%1").arg(current_date_time);
+
+    QString message = QString("%1 %2 %3 %4").arg(current_date).arg(text).arg(context_info).arg(msg);
+
+    QFile file("/tmp/debug/ostreehelp_log.txt");
+    file.open(QIODevice::WriteOnly | QIODevice::Append);
+    QTextStream textStream(&file);
+    textStream << message << "\n";
+    file.flush();
+    file.close();
+    mutex.unlock();
+}
+
 int main(int argc, char **argv)
 {
     // 打开日志的时间戳文件行开关
-    qSetMessagePattern("%{time yyyy-MM-dd hh:mm:ss.zzz} [%{type}] [File:%{file} Line:%{line} Function:%{function}] %{message}");
+    if (dirExists("/tmp/debug")) {
+        qInstallMessageHandler(outputMessage);
+    } else {
+        qSetMessagePattern(
+            "%{time yyyy-MM-dd hh:mm:ss.zzz} [%{type}] [File:%{file} Line:%{line} Function:%{function}] %{message}");
+    }
     qInfo() << "qdbus service start";
     QCoreApplication app(argc, argv);
     QCoreApplication::setOrganizationName("QTDbusDemo");
